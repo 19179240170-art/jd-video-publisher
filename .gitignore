@@ -1,0 +1,40 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+.secrets/
+config.json
+
+# Business data and generated artifacts
+video/
+videos/
+视频源文件/
+京东后台商品导出/
+output/
+outputs/
+*.xlsx
+*.xls
+*.csv
+*.jsonl
+*.mp4
+*.mov
+*.mkv
+*.jpg
+*.jpeg
+*.png
+
+# Local runtimes and caches
+OpenCodex/
+.codex_tmp/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+node_modules/
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

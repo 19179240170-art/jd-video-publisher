@@ -1,0 +1,20 @@
+{
+  "video_root": "videos",
+  "catalog_path": "data/catalog.xlsx",
+  "output_root": "output/phase1",
+  "topic": "#你的话题",
+  "label_type": "你的标签",
+  "scheduled_publish_time": "",
+  "frame_count": 10,
+  "max_skus": 10,
+  "local_analysis_path": "output/phase1/local_chatgpt_analysis.json",
+  "ffmpeg_path": null,
+  "feishu": {
+    "app_id": "",
+    "app_secret": "",
+    "app_token": "",
+    "table_id": "",
+    "base_url": "https://open.feishu.cn/open-apis",
+    "field_map": {}
+  }
+}
